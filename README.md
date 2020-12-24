@@ -28,7 +28,7 @@ main idea of the paper is to fit input image and reference image
 In my application, I waned to make image more naturally
 my main idea is to fit twice about input and reference image
 so, I make "Input2" which is warped in accordance with reference image
-and then I make "Align input2" which is aligned by reference, I make "ref2" which is warped in accordance with align input2
+and then I make "Align input2" which is aligned by reference, I make "ref2" which is warped in accordance with "align input2"
 finally using "Align input2" and "ref2" I make the result
 ![ex_screenshot](./Description/application_algorithm.png)
 
@@ -52,10 +52,12 @@ and moved pixels in accordance with the relationship
 I refer to the paper and sources
 
 paper: https://www.hindawi.com/journals/mpe/2019/8902701/
+
 source: https://github.com/BruceMacD/Face-Swap-OpenCV
     https://pysource.com/2019/05/28/face-swapping-explained-in-8-steps-opencv-with-python/
 
 ## Dependency
 
 dlib: http://dlib.net/
+
 face_toolbox_keras: https://github.com/shaoanlu/face_toolbox_keras
