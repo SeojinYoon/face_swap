@@ -30,7 +30,7 @@ my main idea is to fit twice about input and reference image
 so, I make "Input2" which is warped in accordance with reference image
 and then I make "Align input2" which is aligned by reference, I make "ref2" which is warped in accordance with align input2
 finally using "Align input2" and "ref2" I make the result
-![ex_screenshot](./application_algorithm.png)
+![ex_screenshot](./Description/application_algorithm.png)
 
 ## warping
 I used "Delaunay triangulation" algorithm for making triangles about face area
@@ -40,6 +40,7 @@ The dlib landmark is like this
 ![ex_screenshot](./Description/dlib_landmark.png)
 
 Following image is triangles in reference image
+
 ![ex_screenshot](./Description/reference_triangle.png)
 
 and other triangles(not face) are partitioned equally
