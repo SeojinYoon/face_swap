@@ -2,9 +2,9 @@
 
 ## How to use it?
 
-from face_swap import face_swap
-import os
-import matplotlib.pylab as plt
+from face_swap import face_swap  
+import os  
+import matplotlib.pylab as plt  
 
 man_path = os.path.join(".", "test_image", "woman.jpg")
 woman_path = os.path.join(".", "test_image", "man.jpg")
